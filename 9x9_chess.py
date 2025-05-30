@@ -215,7 +215,7 @@ def draw_pieces(board):
                 screen.blit(t, rect)
 
 pygame.init()
-pygame.display.set_caption("9x9 Schach (Buchstaben) – Universität Hohenheim")
+pygame.display.set_caption("9x9 CHESS")
 
 try:
     font_white = pygame.font.SysFont('arial', 34, bold=True)
